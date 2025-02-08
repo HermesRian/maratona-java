@@ -7,7 +7,7 @@ public class Aula03TiposPrimitivosExercicio {
         double salario;
 
         nome = "Rian";
-        endereco = "Rua vivaldo de lima, 1720";
+        endereco = "Rua Fulano de Tal, 1234";
         salario = 2000.00;
         data = "01/03/2025";
         System.out.println("Eu, "+nome+ ", morando no endereço " +endereco+", confirmo que recebi o salário de " +salario+ ", na data " +data+".");
