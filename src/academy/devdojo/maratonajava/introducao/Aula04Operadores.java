@@ -22,5 +22,13 @@ public class Aula04Operadores {
         System.out.println("isDezIgualDez " + isDezIgualDez);
         System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
 
+        int idade = 22;
+        double salario = 2500;
+
+        boolean isDentroDaLei1 = idade >= 30 && salario >= 4612;
+        boolean isDentrodaLei2 = idade < 30 && salario >= 2423;
+
+        System.out.println(isDentroDaLei1);
+        System.out.println(isDentrodaLei2);
     }
 }
