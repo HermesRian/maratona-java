@@ -30,5 +30,12 @@ public class Aula04Operadores {
 
         System.out.println(isDentroDaLei1);
         System.out.println(isDentrodaLei2);
+
+        double saldoContaCorrente = 800;
+        double saldoContaPoupanca = 7000;
+        double valorPlay5 = 2500;
+
+        boolean isPlay5Compravel = saldoContaPoupanca > valorPlay5 || saldoContaCorrente > valorPlay5;
+        System.out.println("isPlay5Compravel? "+isPlay5Compravel);
     }
 }
