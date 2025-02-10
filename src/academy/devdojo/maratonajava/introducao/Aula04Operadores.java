@@ -38,11 +38,20 @@ public class Aula04Operadores {
         boolean isPlay5Compravel = saldoContaPoupanca > valorPlay5 || saldoContaCorrente > valorPlay5;
         System.out.println("isPlay5Compravel? "+isPlay5Compravel);
 
-        Valor1 = 100;
-        Valor1 += 50;
+        double valor1 = 100;
+        valor1 += 50;
+        System.out.println("Valor1: "+valor1);
 
-        Valor2 = 200;
-        Valor2 -=100;
+        double valor2 = 200;
+        valor2 -=100;
+        System.out.println("Valor2: "+valor2);
 
+        double valor3 = 300;
+        valor3 *= 2;
+        System.out.println("Valor3: "+valor3);
+
+        double valor4 = 400;
+        valor4 /= 2;
+        System.out.println("Valor4: "+valor4);
     }
 }
