@@ -53,5 +53,11 @@ public class Aula04Operadores {
         double valor4 = 400;
         valor4 /= 2;
         System.out.println("Valor4: "+valor4);
+
+        int contador = 0;
+        while (contador <5){
+            contador++;
+            System.out.println(contador);
+        }
     }
 }
