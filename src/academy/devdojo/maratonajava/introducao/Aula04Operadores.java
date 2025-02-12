@@ -7,7 +7,7 @@ public class Aula04Operadores {
         double resultado = numero01 / (double) numero02;
         System.out.println(resultado);
 
-        int resto = 21 % 7;
+        int resto = 21 % 2;
         System.out.println(resto);
 
         boolean isDezMaiorQueVinte = 10 >= 20;
