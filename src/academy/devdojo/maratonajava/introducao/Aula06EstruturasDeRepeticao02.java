@@ -9,8 +9,6 @@ public class Aula06EstruturasDeRepeticao02 {
             int resto = i % 2;
             if (resto == 0) {
                 System.out.println(i + " é par.");
-            } else {
-                System.out.println(i + " é impar.");
             }
             i++;
         }
