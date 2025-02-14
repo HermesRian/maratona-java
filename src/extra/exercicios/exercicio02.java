@@ -9,6 +9,7 @@ public class exercicio02 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o valor de n: ");
         int n = scanner.nextInt();
+
      //   String asterisco = "*";
         for (int i = 1; i <= n ; i++) {
             System.out.println("*".repeat(i));
