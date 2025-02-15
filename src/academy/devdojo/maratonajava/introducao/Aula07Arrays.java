@@ -6,7 +6,7 @@ public class Aula07Arrays {
         idades [0] = 10;
         idades [1] = 15;
         idades [2] = 20;
-        for (int i = 0; i <= 2; i++) {
+        for (int i = 0; i < idades.length; i++) {
             System.out.println(idades[i]);
         }
 //        System.out.println(idades[0]);
