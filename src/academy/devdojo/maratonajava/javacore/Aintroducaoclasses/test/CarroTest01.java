@@ -10,6 +10,13 @@ public class CarroTest01 {
         carro1.ano = 2022;
 
         System.out.println("Marca: "+ carro1.nome+", modelo: "+ carro1.modelo+", ano: "+ carro1.ano);
+
+        Carro carro2 = new Carro();
+        carro2.nome = "Porsche";
+        carro2.modelo = "911";
+        carro2.ano = 2023;
+
+        System.out.println("Marca: "+ carro2.nome+", modelo: "+ carro2.modelo+", ano: "+ carro2.ano);
     }
 
 
