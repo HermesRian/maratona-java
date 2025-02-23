@@ -8,7 +8,6 @@ public class CarroTest01 {
         carro1.nome = "Mercedes";
         carro1.modelo = "G63";
         carro1.ano = 2022;
-
         System.out.println("Marca: " + carro1.nome + ", modelo: " + carro1.modelo + ", ano: " + carro1.ano);
 
         Carro carro2 = new Carro();
