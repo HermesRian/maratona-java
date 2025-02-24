@@ -14,7 +14,7 @@ public class CarroTest01 {
         carro2.nome = "Porsche";
         carro2.modelo = "911";
         carro2.ano = 2023;
-     //   carro2 = carro1; //trocando a referencia do objeto
+     //   carro2 = carro1; //trocando a referencia do objeto.
         System.out.println("Marca: " + carro2.nome + ", modelo: " + carro2.modelo + ", ano: " + carro2.ano);
     }
 
