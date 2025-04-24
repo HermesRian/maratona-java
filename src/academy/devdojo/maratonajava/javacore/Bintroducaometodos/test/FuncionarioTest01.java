@@ -7,12 +7,8 @@ public class FuncionarioTest01 {
         Funcionario funcionario = new Funcionario();
         funcionario.nome = "Fulano";
         funcionario.idade = 20;
-        funcionario.salario = new double[]{2000, 1900, 2300};
+        funcionario.salarios = new double[]{2000, 1900, 2200};
 
-
-        double media = (funcionario.salario[0] + funcionario.salario[1] + funcionario.salario[2]) / 3;
-        System.out.println("Nome: " + funcionario.nome);
-        System.out.println("Idade: " + funcionario.idade);
-        System.out.println("A média salarial é: " + media);
+        funcionario.imprime();
     }
 }
